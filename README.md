@@ -12,6 +12,8 @@ https://yayekit.pythonanywhere.com/update_rates?start_date=YYYY-MM-DD&end_date=Y
 ```
 , where `YYYY-MM-DD` is the desired start and end dates for the rates to be fetched.
 
+This may take anywhere from 5 to 25 seconds, depending on the server load.
+
 ### Google Sheets Integration
 
 The fetched rates are written into the:
