@@ -14,7 +14,8 @@ https://yayekit.pythonanywhere.com/update_rates?start_date=YYYY-MM-DD&end_date=Y
 
 ### Google Sheets Integration
 
-The fetched rates are written into the [Google Sheets document] (https://docs.google.com/spreadsheets/d/1AtLXJdjEwevQ-RPCtzv03qeVJ95m7Dh05IUAsPbfOQw/edit?gid=650071953#gid=650071953)
+The fetched rates are written into the:
+[Google Sheets document](https://docs.google.com/spreadsheets/d/1AtLXJdjEwevQ-RPCtzv03qeVJ95m7Dh05IUAsPbfOQw/edit?gid=650071953#gid=650071953)
 
 **Important!**: Both the GET request and the locally run script clear the content of the Google Sheets spreadsheet before writing the new rates in! If you need to keep peviously fetched information intact, modify the `update_exchange_rates()` function in the `app.py` script.
 
